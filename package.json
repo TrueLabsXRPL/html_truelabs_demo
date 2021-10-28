@@ -1,0 +1,11 @@
+{
+  "name": "hosting",
+  "version": "1.0.0",
+  "description": "script",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "cd public && wget https://truelabs.webflow.io/ --recursive --page-requisites --html-extension --convert-links -xnH -e robots=off && firebase deploy"
+  },
+  "author": "truelabs",
+  "license": "ISC"
+}
